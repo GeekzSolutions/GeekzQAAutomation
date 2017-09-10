@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [LMTSaving]" allow-return-values="true">
+  <test name="Debug">
+    <classes>
+      <class name="com.synapsys.lmt.test.TestLMTLoginPage">
+        <methods>
+          <include name="testLogin_With_Valid_Credentials"/>
+        </methods>
+      </class> <!-- com.synapsys.lmt.test.TestLMTLoginPage -->
+      <class name="com.synapsys.lmt.test.TestLMTChatRoom">
+        <methods>
+          <include name="testChatRoom"/>
+        </methods>
+      </class> <!-- com.synapsys.lmt.test.TestLMTChatRoom -->
+    </classes>
+  </test> <!-- Debug -->
+</suite> <!-- Failed suite [LMTSaving] -->

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LMTSaving" verbose="4" allow-return-values="true">
+
+
+ <test name="Debug" allow-return-values="true">
+  
+ <classes>
+  
+   <class name="com.synapsys.lmt.test.TestLMTLoginPage">
+   <methods>
+   <include name="testLogin_With_Valid_Credentials"></include>
+   </methods>
+   </class>  
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLmtRollCreationPage">
+   <methods>
+   <include name="Role_creation_sucess"></include>
+   <include name="Role_Creation_Duplicate"></include>
+   <include name="Is_Role_Creates_With_Special_Characters"></include>
+   </methods>
+   </class>
+  
+  <class name="com.synapsys.lmt.test.TestLMTRoleAuthorize">
+   <methods>
+   <include name="test_Role_Authorize"></include>
+   </methods>
+   </class>
+  
+   <class name="com.synapsys.lmt.test.TestLMTRoleView">
+   <methods>
+   <include name="test_Role_View_Grid_Details"></include>
+   </methods>
+   </class>
+  
+   <class name="com.synapsys.lmt.test.TestLMTRoleEdit">
+   <methods>
+   <include name="test_Role_Edit_Details"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRoleEditAuthorize">
+   <methods>
+   <include name="test_Role_Authorize"></include>
+   </methods>
+   </class>
+   
+    <class name="com.synapsys.lmt.test.TestLMTRoleInactive">
+   <methods>
+   <include name="test_Role_Inactive_Details"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRoleInactiveAuthorize">
+   <methods>
+   <include name="test_Role_Authorize"></include>
+   </methods>
+   </class>
+  
+    <class name="com.synapsys.lmt.test.TestLMTRoleReActive">
+   <methods>
+   <include name="test_Role_Reactive_Details"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRoleReactiveAuthorize">
+   <methods>
+   <include name="test_Role_Authorize"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRolePermissionSet">
+   <methods>
+   <include name="testPermissionSet"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRolePermissionAuthorize">
+   <methods>
+   <include name="test_RolePermissionAuthorize"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTRolePermissionView">
+   <methods>
+   <include name="testPermissionView"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserCreationPage">
+   <methods>
+   <include name="lMTUserCreation_sucess"></include>
+   </methods>
+   </class>
+      
+     <class name="com.synapsys.lmt.test.TestLMTUserAuthorize">
+   <methods>
+   <include name="test_Authorized_User_By_Admin"></include>
+   </methods>
+   </class>
+   
+    <class name="com.synapsys.lmt.test.TestLMTUserViewGrid">
+   <methods>
+   <include name="test_User_View_Grid_Details"></include>
+   </methods>
+   </class> 
+   
+    <class name="com.synapsys.lmt.test.TestLMTUserViewAfterGrid">
+   <methods>
+   <include name="test_User_Details_After_Grid"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserEdit">
+   <methods>
+   <include name="test_User_Edit"></include>
+   </methods>
+   </class>
+   
+    <class name="com.synapsys.lmt.test.TestLmtUserInactive">
+   <methods>
+   <include name="test_User_Inactive"></include>
+   </methods>
+   </class>   
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserReActivate">
+   <methods>
+   <include name="test_User_Reactive"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserReActivate">
+   <methods>
+   <include name="test_User_Reactive"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserReActivate">
+   <methods>
+   <include name="test_User_Reactive"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyView">
+   <methods>
+   <include name="testExchangeComapnyView"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyAdd">
+   <methods>
+   <include name="testExchangeComapnyCreate"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyAuthorize">
+   <methods>
+   <include name="testExchangeCompanyAutorize"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyEdit">
+   <methods>
+   <include name="testExchangeCompanyEdit"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyInactivate">
+   <methods>
+   <include name="testExchangeCompanyInactive"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyReactive">
+   <methods>
+   <include name="testExchangeCompanyReactive"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTExchangeCompanyACBalance">
+   <methods>
+   <include name="testACBalanceView"></include>
+   </methods>
+   </class> -->
+    
+   <class name="com.synapsys.lmt.test.TestLMTChatRoom">
+   <methods>
+   <include name="testChatRoom"></include>
+   </methods>
+   </class>
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTPartnerView;">
+   <methods>
+   <include name="testPartnerView"></include>
+   </methods>
+   </class> -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTPartnerCreate;">
+   <methods>
+   <include name="testPartnerCreate"></include>
+   </methods>
+   </class> -->
+   
+  <!-- <class name="com.synapsys.lmt.test.TestLMTUserSession">
+   <methods>
+   <include name="test_user_session_output"></include>
+   </methods>
+   </class>  
+   -->
+   
+   <!-- <class name="com.synapsys.lmt.test.TestLMTDesignationMaintain">
+   <methods>
+   <include name="test_Designation_Saved"></include>
+   <include name="test_Designation_Duplicated"></include>
+   <include name="test_Designation_with_Sepcial_Characters"></include>
+   <include name="test_Designation_Clear"></include>
+   </methods>
+   </class>
+  
+   <class name="com.synapsys.lmt.test.TestLMTDesignationEdit">
+   <methods>
+   <include name="test_Designation_Edited"></include>
+   </methods>
+   </class>
+   
+   
+    <class name="com.synapsys.lmt.test.TestUserMaintainceResetPassword">
+   <methods>
+   <include name="test_reset_password"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLMTUserMaintainceAssignRolles">
+   <methods>
+   <include name="test_assign_rolls_from_user_maintaince"></include>
+   </methods>
+   </class>
+  
+     <class name="com.synapsys.lmt.test.TestLMTLockUnlockUser">
+   <methods>
+   <include name="test_Lock_in_user_maintaince"></include>
+   <include name="test_Unlock_in_user_maintaince"></include>
+   </methods>
+   </class>
+   
+       <class name="com.synapsys.lmt.test.TestLMTUserMaintainceViewUser">
+   <methods>
+   <include name="test_user_view_in_user_maintaince"></include>
+   </methods>
+   </class> 
+   
+      <class name="com.synapsys.lmt.test.TestLMTActivateEntityUsers">
+   <methods>
+   <include name="test_Entity_Activation_Sucess"></include>
+   </methods>
+   </class>
+   
+    <class name="com.synapsys.lmt.test.TestLMTCommonMasterBankCreation">
+   <methods>
+   <include name="test_Bank_Creation"></include>
+   <include name="test_Bank_Duplication"></include>
+   <include name="test_Bank_Creation_with_Special_Characters"></include>
+   </methods>
+   </class>
+  
+     <class name="com.synapsys.lmt.test.TestLMTCommonMasterBankEdit">
+   <methods>
+   <include name="test_Bank_Edit"></include>
+   </methods>
+   </class>
+  
+   
+   
+   <class name="com.synapsys.lmt.test.TestLMTCommonMasterBranchCreate">
+   <methods>
+   <include name="test_Branch_Creation"></include>
+   <include name="test_New_Button"></include>
+   </methods>
+   </class>
+  
+   
+   <class name="com.synapsys.lmt.test.TestLMTCommonMasterBranchEdit">
+   <methods>
+   <include name="test_Branch_Search"></include>
+   <include name="test_Branch_Edit"></include>
+   </methods>
+   </class>
+   
+     <class name="com.synapsys.lmt.test.TestLMTSystemParameters">
+   <methods>
+   <include name="test_System_Paramater_Saved"></include>
+   <include name="test_System_Parameter_Duplicated"></include>
+   <include name="test_System_Parameter_with_Special_Characters"></include>
+   </methods>
+   </class>
+  
+   
+   <class name="com.synapsys.lmt.test.TestLMTSystemParametersEdit">
+   <methods>
+   <include name="test_System_Paramater_Edit"></include>
+   </methods>
+   </class>   
+     
+   <class name="com.synapsys.lmt.test.TestLMTChangePassword">
+   <methods>
+   <include name="change_Password_Sucess"></include>
+   </methods>
+   </class>
+   
+   <class name="com.synapsys.lmt.test.TestLmtLogout">
+   <methods>
+   <include name="testLogout_User"></include>
+   </methods>
+   </class>  -->
+ 
+    
+  </classes>
+  </test>
+
+</suite>

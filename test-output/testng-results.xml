@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LMTSaving" duration-ms="32167" started-at="2016-02-24T04:26:39Z" finished-at="2016-02-24T04:27:11Z">
+    <groups>
+    </groups>
+    <test name="Debug" duration-ms="32167" started-at="2016-02-24T04:26:39Z" finished-at="2016-02-24T04:27:11Z">
+      <class name="com.synapsys.lmt.test.TestLMTChatRoom">
+        <test-method status="PASS" signature="testChatRoom()[pri:0, instance:com.synapsys.lmt.test.TestLMTChatRoom@1e643faf]" name="testChatRoom" duration-ms="27993" started-at="2016-02-24T09:56:43Z" finished-at="2016-02-24T09:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChatRoom -->
+      </class> <!-- com.synapsys.lmt.test.TestLMTChatRoom -->
+      <class name="com.synapsys.lmt.test.TestLMTLoginPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.synapsys.lmt.test.TestLMTLoginPage@3b6eb2ec]" name="beforeSuite" is-config="true" duration-ms="22479" started-at="2016-02-24T09:56:17Z" finished-at="2016-02-24T09:56:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testLogin_With_Valid_Credentials()[pri:0, instance:com.synapsys.lmt.test.TestLMTLoginPage@3b6eb2ec]" name="testLogin_With_Valid_Credentials" duration-ms="4169" started-at="2016-02-24T09:56:39Z" finished-at="2016-02-24T09:56:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_With_Valid_Credentials -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.synapsys.lmt.test.TestLMTLoginPage@3b6eb2ec]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-02-24T09:57:11Z" finished-at="2016-02-24T09:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.synapsys.lmt.test.TestLMTLoginPage -->
+    </test> <!-- Debug -->
+  </suite> <!-- LMTSaving -->
+</testng-results>

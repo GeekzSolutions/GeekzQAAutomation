@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-LMTSaving">
+              <span class="suite-name border-passed">LMTSaving</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-LMTSaving">
+                    <span>E:\src\Remittance\QA\QA_Automation_Test_cases\Synapsys.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-LMTSaving">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-LMTSaving">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-LMTSaving">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-LMTSaving">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-LMTSaving">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-LMTSaving">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LMTSaving" class="hide-methods passed suite-LMTSaving"> (hide)</a> <!-- hide-methods passed suite-LMTSaving -->
+                      <a href="#" panel-name="suite-LMTSaving" class="show-methods passed suite-LMTSaving"> (show)</a> <!-- show-methods passed suite-LMTSaving -->
+                    </span>
+                    <div class="method-list-content passed suite-LMTSaving">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMTSaving" title="com.synapsys.lmt.test.TestLMTChatRoom" hash-for-method="testChatRoom">testChatRoom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LMTSaving" title="com.synapsys.lmt.test.TestLMTLoginPage" hash-for-method="testLogin_With_Valid_Credentials">testLogin_With_Valid_Credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LMTSaving -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LMTSaving" class="panel LMTSaving">
+          <div class="suite-LMTSaving-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synapsys.lmt.test.TestLMTLoginPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin_With_Valid_Credentials">
+                  </a> <!-- testLogin_With_Valid_Credentials -->
+                  <span class="method-name">testLogin_With_Valid_Credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LMTSaving-class-passed -->
+          <div class="suite-LMTSaving-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.synapsys.lmt.test.TestLMTChatRoom</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChatRoom">
+                  </a> <!-- testChatRoom -->
+                  <span class="method-name">testChatRoom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LMTSaving-class-passed -->
+        </div> <!-- panel LMTSaving -->
+        <div panel-name="test-xml-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\src\Remittance\QA\QA_Automation_Test_cases\Synapsys.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;4&quot; name=&quot;LMTSaving&quot; allow-return-values=&quot;true&quot;&gt;
+  &lt;test name=&quot;Debug&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.synapsys.lmt.test.TestLMTLoginPage&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testLogin_With_Valid_Credentials&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.synapsys.lmt.test.TestLMTLoginPage --&gt;
+      &lt;class name=&quot;com.synapsys.lmt.test.TestLMTChatRoom&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testChatRoom&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.synapsys.lmt.test.TestLMTChatRoom --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Debug --&gt;
+&lt;/suite&gt; &lt;!-- LMTSaving --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LMTSaving</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Debug (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LMTSaving</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LMTSaving</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LMTSaving');
+function tableData_LMTSaving() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testChatRoom')
+data.setCell(0, 2, 'com.synapsys.lmt.test.TestLMTChatRoom')
+data.setCell(0, 3, 27993);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLogin_With_Valid_Credentials')
+data.setCell(1, 2, 'com.synapsys.lmt.test.TestLMTLoginPage')
+data.setCell(1, 3, 4169);
+window.suiteTableData['LMTSaving']= { tableData: data, tableDiv: 'times-div-LMTSaving'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-LMTSaving">
+              </div> <!-- times-div-LMTSaving -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LMTSaving</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.synapsys.lmt.test.TestLMTChatRoom</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LMTSaving" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synapsys.lmt.test.TestLMTLoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">testLogin_With_Valid_Credentials</span>
+                <span class="method-start">22480 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synapsys.lmt.test.TestLMTChatRoom</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testChatRoom</span>
+                <span class="method-start">26652 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.synapsys.lmt.test.TestLMTLoginPage</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">54699 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
